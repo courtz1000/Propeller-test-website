@@ -1,0 +1,243 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Propeller test</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/bjqs.css">
+	<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro%7COpen+Sans:300' rel='stylesheet' type='text/css'> 
+	<link rel="stylesheet" href="css/slider.css">
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="js/bjqs-1.3.min.js"></script>
+    <script>
+    function showConfirm(){
+    	alert("You have been subscribed!")
+    }
+    </script>
+
+
+
+</head>
+<body>
+
+
+	<div id="header">
+		<div id="logo">
+		<img src="images/logo.png" alt="">
+		</div>
+		<div class="section">
+			
+			
+				<div id="navbar">
+				
+					<a href="index.html">about</a>
+					<a href="about.html">menus</a>
+					<a href="hairstyle.html">locations</a>
+					<a href="news.html">bookings</a>
+					<a href="contact.html">gallery</a>
+					<a href="contact.html">contact</a>
+				</div>
+				<div id="icons">
+				<i class="img1"><img src="images/facebook-white-iso.png" alt=""></i>
+				<i class="img2"><img src="images/twitter-white-iso.png" alt=""> </i>
+				<i class="img3"><img src="images/instagram-white-iso.png" alt=""></i>
+				</div>
+			
+		</div>
+		
+	</div>
+	<div id="body">
+		<div id="header2"> <h1><strong>WELCOME TO PBT, <br/>  PROPELLER!</strong> </h1>
+				<p id="welcome_id">Thank you for considering me for the position. I hope the website impresses and I'd love to join your team. I look forward to meeting you soon.  </p>
+
+
+		</div>
+		<!--First line of images-->
+
+		<ul class="img-list">
+  			<li>
+    		<a href="#">
+      		<img src="images/chairs.jpg" alt="Table" >
+      		<span class="text-content"><span>BOOK A TABLE<br><br>click here</span></span>
+    		</a>
+  			</li>
+  			<li>
+    		<a href="#">
+      		<img src="images/food.jpg" alt="Hotdog and chips" >
+      		<span class="text-content"><span>BOOK A TABLE<br><br>click here</span></span>
+    		</a>
+  			</li>
+  			<li>
+    		<a href="#">
+      		<img src="images/wine.jpg" alt="Wine glass" >
+      		<span class="text-content"><span>BOOK A TABLE<br><br>click here</span></span>
+    		</a>
+  			</li>
+  			<li>
+    		<a href="#">
+      		<img src="images/cup.jpg" alt="Coffee cup" >
+      		<span class="text-content"><span>BOOK A TABLE<br><br>click here</span></span>
+    		</a>
+  			</li>
+  
+		</ul>
+
+
+		<!--Slider --> 
+		
+      <div id="banner-fade">
+
+        
+        <ul class="bjqs">
+          <li><img src="images/thankyou.jpg" alt=""></li>
+          <li><img src="images/food2.jpeg" alt=""></li>
+          <li><img src="images/dessert1.jpg" alt=""></li>
+        </ul>
+       
+
+      </div>
+      
+
+      <script class="secret-source">
+        jQuery(document).ready(function($) {
+
+          $('#banner-fade').bjqs({
+            height      : 400,
+            width       : 948,
+            responsive  : true
+          });
+
+        });
+      </script>
+
+      <!-- End slider -->
+
+      <!--Social media links -->
+
+    	<div id="one">Twitter</div>
+		<div id="two">Instagram</div> 
+		<div id="three">Sign up </div>
+
+		<div id="four">@PBT_propeller <br> 
+
+		<a href="#" class="btn">Follow</a>
+		<p class="twitter_para">Lorem ipsum dolor sit amet, consectetur adipisic­­ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		<p class="hour"> an hour ago</p>
+
+		</div> 
+
+		<div id="five">PBT_propeller <br>
+
+		<a href="#" class="btn">Follow</a> <br><br>
+		 
+		<a  href="#"> <img src="images/instagram_1.jpg" alt=""> </a>
+		<a  href="#"> <img src="images/instagram_2.jpg" alt=""> </a>
+
+		</div> 
+		<div id="six">
+			Subscribe to our newsletter and never miss out on our exclusive offers! <br>
+
+	<!--Sign up form -->
+			<div id="six_form">
+				<form action="signup_Form.php" method="post">
+ 					 Name  |
+  				<input id="name_input" type="text" name="name" value="">
+  				<br><br>
+  					Email  |  
+  				<input id="email_input" type="text" name="email" value="">
+  				<br><br>
+  					Birthday  |
+				<select id="month_select" name=month>
+				<option value='01'>January</option>
+				<option value='02'>February</option>
+				<option value='03'>March</option>
+				<option value='04'>April</option>
+				<option value='05'>May</option>
+				<option value='06'>June</option>
+				<option value='07'>July</option>
+				<option value='08'>August</option>
+				<option value='09'>September</option>
+				<option value='10'>October</option>
+				<option value='11'>November</option>
+				<option value='12'>December</option>
+				</select>
+				  
+
+  					Date  |  
+  				<select id="date_select" name=dt>
+
+				<option value='01'>01</option>
+				<option value='02'>02</option>
+				<option value='03'>03</option>
+				<option value='04'>04</option>
+				<option value='05'>05</option>
+				<option value='06'>06</option>
+				<option value='07'>07</option>
+				<option value='08'>08</option>
+				<option value='09'>09</option>
+				<option value='10'>10</option>
+				<option value='11'>11</option>
+				<option value='12'>12</option>
+				<option value='13'>13</option>
+				<option value='14'>14</option>
+				<option value='15'>15</option>
+				<option value='16'>16</option>
+				<option value='17'>17</option>
+				<option value='18'>18</option>
+				<option value='19'>19</option>
+				<option value='20'>20</option>
+				<option value='21'>21</option>
+				<option value='22'>22</option>
+				<option value='23'>23</option>
+				<option value='24'>24</option>
+				<option value='25'>25</option>
+				<option value='26'>26</option>
+				<option value='27'>27</option>
+				<option value='28'>28</option>
+				<option value='29'>29</option>
+				<option value='30'>30</option>
+				<option value='31'>31</option>
+				</select>
+				
+
+  				<br><br>
+  				<input type="button" value="Submit" onclick="showConfirm()">
+				</form>
+	
+			</div>
+		</div>
+
+<footer>
+    <div class="footer_info">
+        	<ul>
+            <li class="footerLinks"><a  class="footerLinks" href="#">PBT Propeller</a></li>
+            <li class="footerLinks"><a class="footerLinks" href="#">1-3 Windsor court</a></li>
+            <li class="footerLinks"><a class="footerLinks" href="#">Rugby</a></li>
+            <li class="footerLinks"><a class="footerLinks" href="#">Warwickshire</a></li>
+            <li class="footerLinks"><a class="footerLinks" href="#">CV21 3BH</a></li>
+            <li class="footerLinks"><a class="footerLinks" href="mailto:pbt@propcom.co.uk">pbt@propcom.co.uk</a></li>
+            <li class="footerLinks"><a class="footerLinks" href="#">01788 566270</a></li>
+            <li class="footerLinks">
+                <a href="#"><img id="media_icon_fb" src="images/facebook-white-iso1.png" alt="#"></a> 
+                <a href="#"><img id="media_icon_insta" src="images/instagram-white-iso1.png" alt="#"></a>
+                <a href="#"><img id="media_icon_twit" src="images/twitter-white-iso1.png" alt="#"></a>
+            </li>
+        	</ul>
+        <a href="http://www.propcom.co.uk/"><img src="images/logoBottom.png" alt="Propeller Brand Logo"></a>
+   
+
+    <p> &copy; 2016 Courtney Rees, All Rights Reserved. </p>
+    </div>
+</footer>
+
+
+
+
+   
+
+
+		
+		
+	</div>
+</body>
+</html>

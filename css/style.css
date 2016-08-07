@@ -1,0 +1,540 @@
+
+@font-face {
+	font-family: 'Arimo-Bold';
+	src: url('../fonts/Arimo-Bold/Arimo-Bold.eot');
+	src: url('../fonts/Arimo-Bold/Arimo-Bold.woff') format('woff'), url('../fonts/Arimo-Bold/Arimo-Bold.ttf') format('truetype'), url('../fonts/Arimo-Bold/Arimo-Bold.svg') format('svg');
+}
+@font-face {
+	font-family: 'ChangaOne';
+	src: url('../fonts/ChangaOne/ChangaOne-Regular.eot');
+	src: url('../fonts/ChangaOne/ChangaOne-Regular.woff') format('woff'), url('../fonts/ChangaOne/ChangaOne-Regular.ttf') format('truetype'), url('../fonts/ChangaOne/ChangaOne-Regular.svg') format('svg');
+}
+@font-face {
+	font-family: 'Comfortaa-Regular';
+	src: url('../fonts/Comfortaa/Comfortaa-Regular.eot');
+	src: url('../fonts/Comfortaa/Comfortaa-Regular.woff') format('woff'), url('../fonts/Comfortaa/Comfortaa-Regular.ttf') format('truetype'), url('../fonts/Comfortaa/Comfortaa-Regular.svg') format('svg');
+}
+body {
+	 background: url(../images/topBackground.jpg) top no-repeat,url(../images/background.jpg) bottom no-repeat #000;
+	line-height: 1;
+	font-size: 14px;
+	font-family:  "Century Gothic", Helvetica, sans-serif;
+	margin: 0 auto;
+	padding: 0;
+	display: block;
+
+}
+
+/* Header/Navbar Menu */
+
+#header {   /*Top of the page */
+	margin: 0 auto;
+	
+	width: 1000px;
+	padding-left: 20px;
+}
+
+#logo{  /*PBT logo*/
+	display:inline-block;
+	margin-left: 34%;
+	margin-top: 50px;
+}
+#header .section {
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+
+}
+
+
+
+#navbar{  /*Navigation bar */
+
+	height: 50px;
+	letter-spacing: 0.05em;
+	word-spacing: 45px;
+	line-height: 45px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	width: 948px;
+
+	text-transform: uppercase;
+}
+
+#navbar a{
+	font-family: "Century Gothic" , Helvetica, sans-serif;
+	color: #FFFFFF;
+	display: inline;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	width:100%;
+	
+}
+
+ a:hover {
+    background-color: black;
+}
+
+/* Facebook, Twitter, Instagram Icons */
+
+#icons i {
+	display:inline-block;
+	margin-bottom: 100px;
+	margin-right: 20px;
+
+}
+
+i:hover {
+	background-color: black;
+}
+
+#icons {
+	display:inline-block;
+	margin-left:39.5%
+
+}
+
+
+.img1{ 
+	border-radius: 50%;
+	border: 2px solid white;
+	padding: 3px;
+	
+ }
+
+ .img2{ 
+	border-radius: 50%;
+	border: 2px solid white;
+	padding: 3px;
+	
+ }
+
+ .img3{ 
+	border-radius: 50%;
+	border: 2px solid white;
+	padding: 3px;
+	
+
+ }
+
+ /* Welcome to PBT header */
+
+#header .section ul li a:hover {
+	color: #ffffff;
+}
+#header2{
+	width: 948px;
+	height: 150px;
+	background-color: white;
+	text-align: center;
+	
+	font-weight: bold;
+	font-family:  "Century Gothic";
+
+
+}
+
+#welcome_id {
+	margin-left: 100px;
+	margin-right: 100px;
+	font-family:  "Century Gothic";
+	font-weight: normal;
+	font-style: italic;
+	color:black;
+}
+
+/* Images and hover over */ 
+
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+}
+
+ul.img-list li {
+  display: inline-block;
+  height: 237px;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 237px;
+
+}
+
+span.text-content  {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  font-family: "Century Gothic", Helvetica, sans-serif;
+  cursor: pointer;
+  display: table;
+  height: 237px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 237px;
+  opacity: 0;
+    -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+span.text-content span  {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  
+}
+
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+}
+
+/* Body */
+
+#body {
+	margin: 0 auto;
+	min-height: 812px;
+	padding: 0px;
+	width: 960px;
+	
+}
+#body > ul {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0px;
+	
+}
+#body > ul li {
+	float: left;
+	list-style: none;
+	margin: 6px;
+	padding: 0;
+	width: 220px;
+}
+
+#body > ul li > a:hover {
+	opacity: 0.9;
+}
+#body > ul li > a img {
+	border: 0;
+	
+	padding: 0px;
+}
+
+#body > ul li p {
+	
+	font-size: 12px;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+
+#body > div {
+	margin: 0;
+	overflow: hidden;
+	
+}
+
+#body > p {
+	color: #464646;
+	font-size: 13px;
+	line-height: 24px;
+	margin: 0;
+	padding: 30px 10px;
+
+}
+
+#body div div {
+	float: left;
+	margin: 0 10px;
+	padding: 0;
+}
+
+#body div .section {
+	width: 460px;
+}
+#body div .section div {
+	background: #519194;
+	border: 5px solid #5fb3bd;
+	border-radius: 4px;
+	float: none;
+	margin: 0;
+	padding: 0 15px;
+	position: relative;
+}
+
+
+
+
+
+
+/* Slider banner */
+
+#banner-fade {
+	margin:0 auto;
+	margin-top: -30%;
+	margin-bottom: 5%;
+
+
+}
+
+/* Twitter, Instagram and Sign Up box */
+
+
+/* Titles */
+#one, #two, #three { 
+	width: 32%;
+	text-align:center;
+	margin: auto;
+	padding-top: 40px;
+	padding-bottom: 10px;
+	position:relative;
+
+	color: white;
+	font-family:  "Century Gothic", Helvetica, sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+#one, #two { 
+	float: left;
+}
+
+#two{
+	left:2%;
+}
+#three { 
+	float: right; 
+	clear: none;
+	
+}
+
+.twitter_para{
+	text-align:left;
+}
+
+.hour {
+	text-align: right;
+}
+
+/*Content */
+
+#four, #five, #six { 
+	width: 32%; 
+	height: 300px;
+	text-align:center;
+	padding-top: 30px;
+	padding-bottom: 60px;
+	position:relative;
+	height: 150px;
+	
+
+	
+	color:white;
+	font-family:  "Century Gothic", Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 15px;
+	
+}
+
+#four{
+
+	border-top: 2px solid white;
+}
+
+#four .btn {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:transparent;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #FFFFFF;
+	display:inline-block;
+	cursor:pointer;
+	color:#FFFFFF;
+	font-family: "Century Gothic", Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	margin-top: 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+#four .btn:hover {
+	background-color:transparent;
+}
+#four .btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+#five{
+	border-top: 2px solid white;
+	left: 2%;
+	text-decoration: none;
+
+}
+
+#five .btn {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:transparent;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #FFFFFF;
+	display:inline-block;
+	cursor:pointer;
+	color:#FFFFFF;
+	font-family: "Century Gothic", Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	margin-top: 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+#five .btn:hover {
+	background-color:transparent;
+}
+#five .btn:active {
+	position:relative;
+	top:1px;
+}
+
+#six{
+	border-top: 2px solid white;
+
+	
+
+}
+
+#four, #five { 
+	float: left;
+}
+#six { 
+	float: right; 
+	clear: none;
+}
+
+#six .form {
+	font-family: "Century Gothic", Helvetica, sans-serif;
+	padding-top: 5px;
+
+}
+
+#insta_imgs {
+	display:inline;
+
+
+}
+
+/*Sign Up Form */
+
+#name_input {
+	background: transparent; 
+	border:white 1px; 
+	color:white;
+	padding-top: 10px;
+	padding-right:55px;
+
+
+}
+
+#email_input{
+	background: transparent; 
+	border:white 1px; 
+	color:white;
+	padding-right:55px;
+	padding-top: 10px;
+}
+
+#month_select {
+	background: transparent; 
+	border:white 1px; 
+	color:white;
+	padding-top: 10px;
+}
+
+#date_select {
+	background: transparent; 
+	border:white 1px; 
+	color:white;
+}
+
+/*Footer*/
+
+.footer_info {
+    font-family:  "Century Gothic", Helvetica, sans-serif;
+	color: #FFFFFF;
+	display: inline-block;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: none;
+	text-align: center;
+	border-top: white;
+	border-top-style: double;
+	width:100%;
+
+
+
+}
+
+
+.footerLinks{
+
+	display:inline;
+	font-family:  "Century Gothic", Helvetica, sans-serif;
+	color: #FFFFFF;
+	border-right: 1px solid white;
+	padding-right: 4px;
+	margin-right: 1px;
+	text-decoration: none;
+	list-style-type: none;
+
+}
+
+#media_icon_fb{
+	padding-right: 6px;
+	padding-left: 6px;
+}
+
+#media_icon_insta{
+	padding-right: 6px;
+	padding-left: 6px;
+}
+
+#media_icon_twit{
+	padding-right: 6px;
+	padding-left: 6px;
+}
+
+.footer_info p{
+
+font-family: "Century Gothic", Helvetica, sans-serif;
+color: white;
+text-align: left;
+font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
